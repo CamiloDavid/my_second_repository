@@ -33,3 +33,7 @@ if __name__ == '__main__':
     monitor2 = Monitor('Acer', 27)
     computadora2 = Computadora('Acer', monitor2, teclado2, raton2)
     print(computadora2)
+    teclado3 = Teclado('Asus', 'USB')
+    raton3 = Raton('Gamer', 'Bluetooth')
+    monitor3 = Monitor('Asus', 30)
+    computadora3 = Computadora('Asus', monitor3, teclado3, raton3)
